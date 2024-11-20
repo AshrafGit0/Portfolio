@@ -1,0 +1,9 @@
+.containerFluid{
+    background-color: rgba(2, 11, 33);
+    margin: 0;
+    overflow: hidden;
+}
+.bg-main{
+    background-image: url("./assets/herobg.png");
+    height: 100lvh;
+}

@@ -1,0 +1,25 @@
+.contact-form input::placeholder, .contact-form textarea::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+.contact-form input,.contact-form textarea{
+    font-family: "Fira Sans","Poppins","Ubuntu",sans-serif;
+    font-style: italic;
+    
+}
+.form-heading{
+    font-weight: 800;
+}
+.contact-form{
+    background-color:rgb(17, 14, 47);
+    
+}
+.Earth-canvas{
+    height: 350px;
+}
+#contact{
+    background-image: url("../../assets/stars-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
