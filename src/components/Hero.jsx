@@ -1,6 +1,6 @@
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import "./styles/Hero.css";
-import { ComputersCanvas } from "./canvas";
+// import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -55,11 +55,14 @@ const Hero = () => {
         </div>
         <div className=" d-flex hero-image ">
           <img
-            src="../../src/assets/programmer-night.jpg"
+            src="/assets/programmer-night.jpg"
             alt="developer-image"
             loading="lazy"
           />
         </div>
+      </div>
+      {/* <div className=" d-flex justify-content-start container-fluid computer-canvas">
+        <ComputersCanvas />
       </div>
       <div className=" d-flex w-100 heroPill-container justify-content-center  position-absolute">
         <a href="#about">
@@ -77,7 +80,7 @@ const Hero = () => {
             />
           </div>
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };
