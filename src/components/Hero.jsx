@@ -53,9 +53,13 @@ const Hero = () => {
             </li>
           </ul>
         </div>
-      </div>
-      <div className=" d-flex justify-content-start container-fluid computer-canvas">
-        <ComputersCanvas />
+        <div className=" d-flex hero-image ">
+          <img
+            src="../../src/assets/programmer-night.jpg"
+            alt="developer-image"
+            loading="lazy"
+          />
+        </div>
       </div>
       <div className=" d-flex w-100 heroPill-container justify-content-center  position-absolute">
         <a href="#about">
