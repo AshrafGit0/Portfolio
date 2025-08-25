@@ -1,28 +1,53 @@
+.about-subtxt {
+  opacity: 0.5;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.about-headtxt {
+  font-weight: 800;
+  font-size: 35px;
+  letter-spacing: 1px;
+}
+.about-description {
+  text-align: justify;
+  line-height: 27px;
+}
+.tilt-card {
+  width: 190px;
+  background: linear-gradient(
+    to bottom right,
+    rgb(18, 202, 230, 0.6) 60%,
+    rgb(255, 192, 203, 0.6)
+  );
+  border-radius: 20px;
+  padding: 1.2px;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1);
+}
+.tilt-body {
+  height: 220px;
+  border-radius: 20px;
+  background-color: rgb(17, 14, 47);
+}
 
-.about-subtxt{
-    opacity: 0.5;
-    font-size: 14px;
-    letter-spacing: 1px;
+/* custom background color for tooltip */
+.tech-tooltip .tooltip-inner {
+  background-color: white;
+  color: black;
+  font-weight: 500;
+  
 }
-.about-headtxt{
-    font-weight: 800;
-    font-size: 35px;
-    letter-spacing: 1px;
-    
+
+.tech-tooltip .tooltip-inner::first-letter{
+    text-transform: capitalize;
 }
-.about-description{
-    text-align: justify;
-    line-height: 27px;
+
+.tech-tooltip .tooltip-arrow::before {
+  border-top-color: white;
 }
-.tilt-card{
-    width: 190px;
-    background: linear-gradient(to bottom right,rgb(18, 202, 230,0.6) 60%,rgb(255, 192, 203,0.6));
-    border-radius: 20px;
-    padding: 1.2px;
+
+/* tech card styles */
+.tech-card{
     box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1);
+  background-color: rgb(17, 14, 47);
 }
-.tilt-body{
-    height: 220px ;
-    border-radius: 20px;
-    background-color:rgb(17, 14, 47)
-}
+

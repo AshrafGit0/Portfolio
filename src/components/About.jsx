@@ -15,7 +15,7 @@ const About = () => {
             <h2 className=" about-headtxt ">Overview.</h2>
           </motion.div>
           <motion.p
-            className=" mt-2 about-description   text-secondary"
+            className=" mt-2 about-description text-secondary"
             variants={fadeIn("", "", 0.1, 1)}
           >
             {AboutDescription}
